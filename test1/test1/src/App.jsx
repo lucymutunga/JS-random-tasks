@@ -1,5 +1,6 @@
 //props allow parent component to send data to child component
 import Student from "./student";
+
 function App() {
   return (
     <>
