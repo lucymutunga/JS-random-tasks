@@ -21,8 +21,8 @@ John.calcBMI();
 console.log(John.bmi, Mark.bmi);
 Mark.bmi > John.bmi
   ? console.log(
-      `${Mark.fullname}'s BMI (${Mark.bmi}) is higher than ${John.fullname}(${John.bmi})`
+      `${Mark.fullname}'s BMI (${Mark.bmi}) is higher than ${John.fullname}'s(${John.bmi})`
     )
   : console.log(
-      `${John.fullname}'s BMI (${John.bmi}) is higher than ${Mark.fullname}(${Mark.bmi})`
+      `${John.fullname}'s BMI (${John.bmi}) is higher than ${Mark.fullname}'s(${Mark.bmi})`
     );
