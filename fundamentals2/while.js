@@ -7,6 +7,8 @@ while (rep <= 10) {
   console.log(`Lifting Weights repetition ${rep}🏋️‍♂️`);
   rep++;
 }
+
+//rollling a dice and stopping at 6
 let dice = Math.trunc(Math.random() * 6) + 1;
 console.log(dice);
 while (dice !== 6) {
