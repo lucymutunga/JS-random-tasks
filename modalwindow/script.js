@@ -5,6 +5,5 @@ const btnCloseModal = document.querySelector(".close-modal");
 const btnsOpenModal = document.querySelector(".show-modal");
 console.log(btnsOpenModal);
 
-for (let i = 0; i < btnsOpenModal.clientHeight; i++) {
+for (let i = 0; i < btnsOpenModal.length; i++)
   console.log(btnsOpenModal[i].textContent);
-}
